@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\I_Work\\Personal\\Code\\Core\\Core6BookFreman\\SportsSln\\SportsStore\\SportsStore.csproj": {}
+    "F:\\Kareem_IT-04\\SASO_Data\\I_Work\\Core\\BookCore6\\SportsSln\\SportsStore\\SportsStore.csproj": {}
   },
   "projects": {
-    "D:\\I_Work\\Personal\\Code\\Core\\Core6BookFreman\\SportsSln\\SportsStore\\SportsStore.csproj": {
+    "F:\\Kareem_IT-04\\SASO_Data\\I_Work\\Core\\BookCore6\\SportsSln\\SportsStore\\SportsStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\I_Work\\Personal\\Code\\Core\\Core6BookFreman\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "projectUniqueName": "F:\\Kareem_IT-04\\SASO_Data\\I_Work\\Core\\BookCore6\\SportsSln\\SportsStore\\SportsStore.csproj",
         "projectName": "SportsStore",
-        "projectPath": "D:\\I_Work\\Personal\\Code\\Core\\Core6BookFreman\\SportsSln\\SportsStore\\SportsStore.csproj",
-        "packagesPath": "C:\\Users\\kareem\\.nuget\\packages\\",
-        "outputPath": "D:\\I_Work\\Personal\\Code\\Core\\Core6BookFreman\\SportsSln\\SportsStore\\obj\\",
+        "projectPath": "F:\\Kareem_IT-04\\SASO_Data\\I_Work\\Core\\BookCore6\\SportsSln\\SportsStore\\SportsStore.csproj",
+        "packagesPath": "C:\\Users\\k.marey\\.nuget\\packages\\",
+        "outputPath": "F:\\Kareem_IT-04\\SASO_Data\\I_Work\\Core\\BookCore6\\SportsSln\\SportsStore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kareem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\k.marey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +39,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
